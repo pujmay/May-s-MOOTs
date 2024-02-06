@@ -1,20 +1,20 @@
 .card{
-    background-color: #5CDB95 !important;
+    background-color: EEE9DA !important;
     
 }
 
 body{
-    background-color: #05386B;
+    background-color: #6096B4;
 }
 
 .container-fluid{
- background-color: #379683 !important;
- color: #EDF5E1 !important;
+ background-color: #BDCDD6 !important;
+ color: #adadad !important;
  height: 1090px !important;
 }
 
 h3{
-    color: #05386B;
+    color: black;
 }
 
 .inputs{
@@ -31,7 +31,7 @@ h3{
 .button{
     width: 200px;
     margin-top: 5px;
-    background-color: #05386B;
+    background-color: black;
     color: #EDF5E1;
     padding: 5px 2px;
     border: none;
