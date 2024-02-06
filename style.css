@@ -1,0 +1,57 @@
+.card{
+    background-color: #5CDB95 !important;
+    
+}
+
+body{
+    background-color: #05386B;
+}
+
+.container-fluid{
+ background-color: #379683 !important;
+ color: #EDF5E1 !important;
+ height: 1090px !important;
+}
+
+h3{
+    color: #05386B;
+}
+
+.inputs{
+    background-color: #EDF5E1;
+    margin: 2px;
+    padding: 4px 2px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: #05386B important;
+}
+
+.button{
+    width: 200px;
+    margin-top: 5px;
+    background-color: #05386B;
+    color: #EDF5E1;
+    padding: 5px 2px;
+    border: none;
+    border-radius: 10px;
+}
+
+video{
+    width: 230px;
+    padding: 5px;
+}
+
+.video_div{
+    /* padding: 5px; */
+    margin: auto;
+    /* background-color: black; */
+    /* width: 200px;
+    height: 600px; */
+}
+
+.useroutput{
+    text-align: center;
+    
+}
