@@ -68,11 +68,6 @@ function search_moots() {
         div.innerText = "I know its you Sai!!!";
         sourceMP4.src = "videos/sai.mp4";
 
-    } else if ((moot_name.match(/ane.*/) || moot_name.match(/Ane.*/) || moot_name.match(/aNE.*/)) || moot_name.match(/ANE.*/)) {
-        console.log("Anew");
-        div.innerText = "I know its you Anew!!!";
-        sourceMP4.src = "videos/Anew.mp4";
-
     } else if ((moot_name.match(/pa.*/) || moot_name.match(/Pa.*/) || moot_name.match(/pA.*/)) || moot_name.match(/PA.*/) || moot_name.match(/aniket.*/) || moot_name.match(/Aniket.*/)){
         console.log("Patronus");
         div.innerText = "I know its you Patronus Aniket!!!";
@@ -113,6 +108,10 @@ function search_moots() {
     }  else if ((moot_name.match(/ti.*/) || moot_name.match(/Ti.*/) || moot_name.match(/tI.*/) || moot_name.match(/TI.*/))) {
         console.log("Tia");
         div.innerText = "I know its you Tia!!! stay away from chae chae...";
+        sourceMP4.src = "videos/chaeyoung.mp4";
+    } else if ((moot_name.match(/ane.*/) || moot_name.match(/Ane.*/) || moot_name.match(/aNe.*/) || moot_name.match(/ANE.*/))) {
+        console.log("Anew");
+        div.innerText = "I know its you Anew...";
         sourceMP4.src = "videos/chaeyoung.mp4";
     } else {
         console.log("Invalid");
