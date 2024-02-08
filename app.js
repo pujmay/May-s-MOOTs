@@ -92,7 +92,11 @@ function search_moots() {
         div.innerText = "I know its you Sharen, I know what you are.. HEHEHHE !!!";
         sourceMP4.src = "videos/sharen.mp4";
 
-    }  else if ((moot_name.match(/MN.*/) || moot_name.match(/Mn.*/) || moot_name.match(/mN.*/) || moot_name.match(/mn.*/))) {
+    } else if ((moot_name.match(/dy.*/) || moot_name.match(/Dy.*/) || moot_name.match(/dY.*/) || moot_name.match(/DY.*/) || moot_name.match(/mndhtw.*/) || moot_name.match(/MNDHTW.*/))) {
+        console.log("Dyno");
+        div.innerText = "I know its you Dyno...";
+        sourceMP4.src = "videos/dyno.mp4";
+    } else if ((moot_name.match(/MN.*/) || moot_name.match(/Mn.*/) || moot_name.match(/mN.*/) || moot_name.match(/mn.*/))) {
         console.log("MN");
         div.innerText = "I know its you programmer + composer + singer gal MN from Philippines!!!";
         sourceMP4.src = "videos/MN.mp4";
