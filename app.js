@@ -83,7 +83,7 @@ function search_moots() {
         div.innerText = "I know its you wolf cut gal - Sunny!!!";
         sourceMP4.src = "videos/wolf-cut-sunny.mp4";
 
-    }  else if ((moot_name.match(/ans.*/) || moot_name.match(/Ans*/) || moot_name.match(/ANS.*/))) {
+    }  else if ((moot_name.match(/anshika.*/) || moot_name.match(/Anshika*/) || moot_name.match(/ANSHIKA.*/))) {
         console.log("Anshika");
         div.innerText = "I know its you Anshika!!!";
         sourceMP4.src = "videos/chae-ansh.mp4";
@@ -112,7 +112,7 @@ function search_moots() {
     } else if ((moot_name.match(/ane.*/) || moot_name.match(/Ane.*/) || moot_name.match(/aNe.*/) || moot_name.match(/ANE.*/))) {
         console.log("Anew");
         div.innerText = "I know its you Anew...";
-        sourceMP4.src = "videos/chaeyoung.mp4";
+        sourceMP4.src = "videos/Anew.mp4";
     } else {
         console.log("Invalid");
         div.innerText = "Invalid";
