@@ -88,15 +88,32 @@ function search_moots() {
         div.innerText = "I know its you wolf cut gal - Sunny!!!";
         sourceMP4.src = "videos/wolf-cut-sunny.mp4";
 
-    } else if ((moot_name.match(/sh.*/) || moot_name.match(/Sh.*/) || moot_name.match(/sH.*/)) || moot_name.match(/SH.*/)) {
+    }  else if ((moot_name.match(/anshika.*/) || moot_name.match(/Anshika.*/) || moot_name.match(/ANSHIKA.*/))) {
+        console.log("Anshika");
+        div.innerText = "I know its you Anshika!!!";
+        sourceMP4.src = "videos/chae-ansh.mp4";
+    } else if ((moot_name.match(/sh.*/) || moot_name.match(/Sh.*/) || moot_name.match(/sH.*/) || moot_name.match(/SH.*/))) {
         console.log("Sharen");
         div.innerText = "I know its you Sharen, I know what you are.. HEHEHHE !!!";
         sourceMP4.src = "videos/sharen.mp4";
 
-    }  else if ((moot_name.match(/MN.*/) || moot_name.match(/Mn.*/) || moot_name.match(/mN.*/)) || moot_name.match(/mn.*/)) {
+    }  else if ((moot_name.match(/MN.*/) || moot_name.match(/Mn.*/) || moot_name.match(/mN.*/) || moot_name.match(/mn.*/))) {
         console.log("MN");
         div.innerText = "I know its you programmer + composer + singer gal MN from Philippines!!!";
         sourceMP4.src = "videos/MN.mp4";
+    } 
+    else if ((moot_name.match(/ni.*/) || moot_name.match(/Ni.*/) || moot_name.match(/nI.*/) || moot_name.match(/nI.*/) || moot_name.match(/APO.*/) || moot_name.match(/Apo.*/)|| moot_name.match(/apo.*/))) {
+        console.log("Nia ");
+        div.innerText = "I know its you Nia (Apobangpo)!!!";
+        sourceMP4.src = "videos/jhope.mp4";
+    }  else if ((moot_name.match(/bu.*/) || moot_name.match(/Bu.*/) || moot_name.match(/bU.*/) || moot_name.match(/BU.*/))) {
+        console.log("Butter");
+        div.innerText = "I know its you, Butter!!! and she's not your wife..";
+        sourceMP4.src = "videos/tyuzu.mp4";
+    }  else if ((moot_name.match(/ti.*/) || moot_name.match(/Ti.*/) || moot_name.match(/tI.*/) || moot_name.match(/TI.*/))) {
+        console.log("Tia");
+        div.innerText = "I know its you Tia!!! stay away from chae chae...";
+        sourceMP4.src = "videos/chaeyoung.mp4";
     } else {
         console.log("Invalid");
         div.innerText = "Invalid";
