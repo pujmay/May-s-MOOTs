@@ -92,7 +92,7 @@ function search_moots() {
         div.innerText = "I know its you Sharen, I know what you are.. HEHEHHE !!!";
         sourceMP4.src = "videos/sharen.mp4";
 
-    } else if ((moot_name.match(/dy.*/) || moot_name.match(/Dy.*/) || moot_name.match(/dY.*/) || moot_name.match(/DY.*/) || moot_name.match(/mndhtw.*/) || moot_name.match(/MNDHTW.*/))) {
+    } else if ((moot_name.match(/dy.*/) || moot_name.match(/Dy.*/) || moot_name.match(/dY.*/) || moot_name.match(/DY.*/) || moot_name.match(/mnd.*/) || moot_name.match(/MND.*/))) {
         console.log("Dyno");
         div.innerText = "I know its you Dyno...";
         sourceMP4.src = "videos/dyno.mp4";
